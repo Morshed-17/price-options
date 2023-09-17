@@ -1,3 +1,4 @@
+import LineChart from "./components/LineChart/LineChart";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import PriceOptions from "./components/PriceOptions/PriceOptions";
@@ -7,6 +8,7 @@ function App() {
     <div className="max-w-screen-xl mx-auto md:px-12 px-5">
       <NavBar/>
       <PriceOptions/>
+      <LineChart/>
     </div>
   );
 }
